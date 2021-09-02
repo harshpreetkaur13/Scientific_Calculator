@@ -240,7 +240,7 @@ btnsqrt=Button(calc,text="v",width=6,height=2,font=('arial',20,'bold'),bd=4,
 btnmod=Button(calc,text="%",width=6,height=2,font=('arial',20,'bold'),bd=4,
               bg="gray",command=lambda:added_value.operation("mod")).grid(row=1,column=2,pady=1)
 
-btndiv=Button(calc,text="÷",width=6,height=2,font=('arial',20,'bold'),bd=4,
+btndiv=Button(calc,text="Ã·",width=6,height=2,font=('arial',20,'bold'),bd=4,
               bg="gray",command=lambda:added_value.operation("div")).grid(row=1,column=3,pady=1)
 
 btnmul=Button(calc,text="x",width=6,height=2,font=('arial',20,'bold'),bd=4,
@@ -252,7 +252,7 @@ btnsub=Button(calc,text="-",width=6,height=2,font=('arial',20,'bold'),bd=4,
 btnadd=Button(calc,text="+",width=6,height=2,font=('arial',20,'bold'),bd=4,
               bg="gray",command=lambda:added_value.operation("add")).grid(row=4,column=3,pady=1)
 
-btnsign=Button(calc,text="±",width=6,height=2,font=('arial',20,'bold'),bd=4,
+btnsign=Button(calc,text="Â±",width=6,height=2,font=('arial',20,'bold'),bd=4,
                bg="gray",command=added_value.sign).grid(row=5,column=0,pady=1)
 
 btnzero=Button(calc,text="0",width=6,height=2,font=('arial',20,'bold'),bd=4,
